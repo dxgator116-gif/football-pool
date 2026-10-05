@@ -65,6 +65,7 @@
   .stat-row .v.gold{ color:var(--gold); }
   .rank-up{ color:var(--win); font-weight:700; }
   .rank-down{ color:var(--live); font-weight:700; }
+  .rank-flat{ color:var(--paper-dim); font-weight:700; }
   .headlines{ padding:22px 20px 6px; }
   .section-lbl{ font-family:"Press Start 2P",monospace; font-size:10px; color:var(--gold);
     letter-spacing:1px; margin:0 0 14px; }
@@ -95,6 +96,7 @@
   .crawl-track span b{ color:var(--gold); font-weight:700; }
   .crawl-track .rank-up{ color:var(--win); }
   .crawl-track .rank-down{ color:var(--live); }
+  .crawl-track .rank-flat{ color:var(--paper-dim); }
   @keyframes crawl{ from{ transform:translateX(0);} to{ transform:translateX(-100%);} }
   @media (prefers-reduced-motion: reduce){ .crawl-track{ animation:none; padding-left:82px; } }
   footer{ padding:16px 20px 4px; font-size:10.5px; color:var(--paper-dim); letter-spacing:.3px; }
@@ -142,7 +144,7 @@
     </div>
   </div>
   <div class="reports">
-<div class="player-card"><span class="tag">ACTUAL #9 &middot; PROJ #1</span><h2>MA&rsquo;S MAN</h2><div class="stat-row"><span class="k">THIS WEEK</span><span class="v">6&ndash;5 &middot; 0% title odds</span></div><div class="stat-row"><span class="k">ACTUAL RANK</span><span class="v">#9 <span class="rank-down">▼6</span> of ~55 &middot; 37&ndash;22</span></div><div class="stat-row"><span class="k">PROJECTED RANK</span><span class="v gold">#1 <span>◆</span> of the field</span></div><div class="stat-row"><span class="k">SEASON WIN PROB</span><span class="v win">18.7%</span></div></div>
+<div class="player-card"><span class="tag">ACTUAL #9 &middot; PROJ #1</span><h2>MA&rsquo;S MAN</h2><div class="stat-row"><span class="k">THIS WEEK</span><span class="v">6&ndash;5 &middot; 0% title odds</span></div><div class="stat-row"><span class="k">ACTUAL RANK</span><span class="v">#9 <span class="rank-down">▼6</span> of ~55 &middot; 37&ndash;22</span></div><div class="stat-row"><span class="k">PROJECTED RANK</span><span class="v gold">#1 <span class="rank-flat">◆</span> of the field</span></div><div class="stat-row"><span class="k">SEASON WIN PROB</span><span class="v win">18.7%</span></div></div>
 <div class="player-card"><span class="tag">ACTUAL #5 &middot; PROJ #3</span><h2>DX2J</h2><div class="stat-row"><span class="k">THIS WEEK</span><span class="v">7&ndash;4 &middot; 0% title odds</span></div><div class="stat-row"><span class="k">ACTUAL RANK</span><span class="v">#5 <span class="rank-down">▼2</span> of ~55 &middot; 38&ndash;21</span></div><div class="stat-row"><span class="k">PROJECTED RANK</span><span class="v gold">#3 <span class="rank-up">▲1</span> of the field</span></div><div class="stat-row"><span class="k">SEASON WIN PROB</span><span class="v win">12.0%</span></div></div>
   </div>
   <div class="headlines">
@@ -169,7 +171,7 @@
   </div>
   <div class="crawl-wrap" role="marquee" aria-label="Scrolling summary ticker">
     <div class="crawl-track">
-<span><b>MA&rsquo;S MAN</b> 6-5 this wk (0% title odds). Season #9 <span class="rank-down">▼6</span> actual / #1 ◆ projected (18.7% to win it all). Top overall-impact games: DAL@HOU final (L), AZ@NYG final (L), PIT@CLE final (L), JAX@CIN final (L), ATL@NO.</span>
+<span><b>MA&rsquo;S MAN</b> 6-5 this wk (0% title odds). Season #9 <span class="rank-down">▼6</span> actual / #1 <span class="rank-flat">◆</span> projected (18.7% to win it all). Top overall-impact games: DAL@HOU final (L), AZ@NYG final (L), PIT@CLE final (L), JAX@CIN final (L), ATL@NO.</span>
 <span><b>DX2J</b> 7-4 this wk (0% title odds). Season #5 <span class="rank-down">▼2</span> actual / #3 <span class="rank-up">▲1</span> projected (12.0% to win it all). Top overall-impact games: DAL@HOU final (L), PIT@CLE final (L), JAX@CIN final (L), AZ@NYG final (W), ATL@NO.</span>
 <span>11/16 final &middot; 3 live &middot; 2 still ahead</span>
     </div>
